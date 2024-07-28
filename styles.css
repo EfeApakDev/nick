@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'KyivTypeTitling';
+    src: url('fonts/KyivTypeTitling-Bold.otf') format('opentype');
+}
+body {
+    background-color: #f0f0f0;
+}
+
+.custom-font {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.container {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.custom-font {
+    font-family: 'KyivTypeTitling', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
